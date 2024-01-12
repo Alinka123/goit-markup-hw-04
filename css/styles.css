@@ -444,9 +444,10 @@ font-size: 16px;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
+margin-bottom: 16px;
 }
 .footer-icons {
-display:inline-block;
+display:block;
 width: 208px;
 height: 80px;
 
