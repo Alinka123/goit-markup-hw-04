@@ -153,8 +153,9 @@ color: #404bbf;
     max-width: 1440px;
     padding: 188px 0;
      background: var(--NAVY-BLUE, #2E2F42);
-     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../images/people-office\ 1.jpg);
+        
      background-repeat: no-repeat;
      background-position: center;
      background-size: cover;
@@ -162,6 +163,7 @@ color: #404bbf;
 }
 .main-container {
     text-align: center;
+   
 }
   
     
@@ -287,7 +289,7 @@ gap: 24px;
 
 }
 
-svg { 
+.svg { 
 fill: #f4f4fd;
  }
 .class-link {
@@ -364,8 +366,10 @@ padding-top: 32px;
 .cover-content-wrap {
    position: relative;
    overflow: hidden;  
+   width: 100%;
+   
 }
-.portfolio-list-item:hover .cover-text-wrap {
+.portfolio-list-item:hover, .cover-text-wrap {
 transform: translateY(0%);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
