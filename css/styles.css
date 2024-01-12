@@ -419,10 +419,12 @@ letter-spacing: 0.02em;
   
 }
 .footer-list {
-    display: flex;
-    gap: 120px;
+    margin-right: 120px;
 }
-
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
 .footer-logo {
     display: inline-block;
     color: var(--IRIS, #4D5AE5);
