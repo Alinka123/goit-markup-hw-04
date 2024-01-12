@@ -154,7 +154,7 @@ max-width: 1440px;
 padding: 188px 0;
 background: var(--NAVY-BLUE, #2E2F42);
 background-image: linear-gradient(rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7)),
-url(../images/people-office\ 1.jpg);
+url(../images/people-office.jpg);
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
@@ -466,4 +466,7 @@ height: 80px;
 }
 .ftr {
 gap: 16px;
+}
+.foot:hover, .foot:focus {
+    background-color: #31D0AA;
 }
