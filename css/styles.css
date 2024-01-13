@@ -153,7 +153,9 @@ color: #404bbf;
 max-width: 1440px;
 padding: 188px 0;
 background: var(--NAVY-BLUE, #2E2F42);
-background-image: linear-gradient(rgba(46, 47, 66, 0.7) 0%, rgba(46, 47, 66, 0.7)),
+background-image: linear-gradient(
+    rgba(46, 47, 66, 0.7), 
+    rgba(46, 47, 66, 0.7)),
 url(../images/people-office.jpg);
 background-repeat: no-repeat;
 background-position: center;
@@ -371,14 +373,13 @@ padding-top: 32px;
 .portfolio-list-item:hover .cover-text-wrap {
 transform: translateY(0%);
 box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-        0px 1px 1px rgba(46, 47, 66, 0.16),
-        0px 2px 1px rgba(46, 47, 66, 0.08);
+0px 1px 1px rgba(46, 47, 66, 0.16),
+0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 .cover-text-wrap {
  width: 360px;
  height: 300px;
-padding: 0 32px;
-padding-top: 40px;
+padding: 40px 32px;
 position: absolute; 
 top: 0;
 background: var(--IRIS, #4D5AE5);
@@ -389,6 +390,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 1.5;
 letter-spacing: 0.02em;
+width: 100%;
 }
 .team-job, .portfolio-descr 
 {
